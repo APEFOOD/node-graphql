@@ -1,0 +1,27 @@
+{
+  "name": "node-graphql",
+  "version": "1.0.0",
+  "description": "GraphQL skeleton app",
+  "main": "dist/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "npm run tsc && node ./build/app.js"
+  },
+  "repository": "https://github.com/APEFOOD/node-graphql.git",
+  "author": "Kabelo",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express-graphql": "^0.6.2",
+    "@types/express": "^4.17.0", 
+    "@types/graphql": "^14.0.7", 
+    "express": "^4.16.4", 
+    "express-graphql": "^0.8.0", 
+    "graphql": "^14.1.1",
+    "graphql-tools": "^4.0.4"
+  },
+  "devDependencies": {
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.4000"
+  },
+  "private": false
+}
